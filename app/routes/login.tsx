@@ -77,8 +77,6 @@ export const action: ActionFunction = async ({ request }) => {
     default:
       return json({ error: `Invalid Form Data` }, { status: 400 });
   }
-
-  // ...
 };
 
 export default function Login() {
